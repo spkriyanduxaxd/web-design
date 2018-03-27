@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-expand-xl navbar-expand-lg bg-dark navbar-dark navbar-expand-md sticky-top">
+    <div class="container">
+        <a href="index.html" class="navbar-brand"><img src="images/bootstrap-icon.svg" alt="logo" width="30" height="50"></a>
+
+        <button type="button" class="navbar-toggler" data-target="#mainmenu" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="mainmenu">
+            <ul class="navbar-nav mr-auto">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">Team</a></li>
+                <li><a href="#" class="nav-link">Portfolio</a></li>
+                <li class="dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
+                    <ul class="dropdown-menu bg-dark">
+                        <li><a href="#" class="nav-link"> Web Design</a></li>
+                        <li><a href="#" class="nav-link"> Graphic Design</a></li>
+                        <li><a href="#" class="nav-link"> Mobile Apps Design</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+
+            </ul>
+            <ul class="navbar-nav ">
+                <li><a href="#" class="nav-link" data-toggle="modal" data-target="#modal">Login</a></li>
+                <li><a href="#" class="nav-link">Signup</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <!--<h1 class="text-white text-center">contact us</h1>-->
+    </div>
+    <div class="row">
+        <!--<h4 style="text-align:center">We'd love to hear from you!</h4>-->
+    </div>
+    <div class="row input-container">
+        <div class="col-xs-12">
+            <div class="styled-input wide">
+                <input type="text" required />
+                <label>Name</label>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <div class="styled-input">
+                <input type="text" required />
+                <label>Email</label>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <div class="styled-input" style="float:right;">
+                <input type="text" required />
+                <label>Phone Number</label>
+            </div>
+        </div>
+        <div class="col-xs-12">
+            <div class="styled-input wide">
+                <textarea required></textarea>
+                <label>Message</label>
+            </div>
+        </div>
+        <div class="col-xs-12">
+            <div class="btn-lrg submit-btn">Send Message</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
